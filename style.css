@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Hanken Grotesk;
+}
+
+.gen {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.container-1 {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 0.7), hsl(256, 72%, 46%));
+    border-radius: 20px;
+    margin-top: 55px;
+    height: 500px;
+    width: 400px;
+}
+
+.head {
+     font-size: 28px;
+     color: hsla(0, 0%, 100%, 0.6);
+     padding: 10px 0 30px;
+     margin-bottom: 10px;
+}
+
+.section {
+    border-radius: 50%;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 0.9), hsla(256, 72%, 46%, 0.1));
+    padding-top: 30px;
+    margin-left: 100px;
+    width: 210px;
+    height: 180px;
+}
+
+.bold {
+    font-size: 80px;
+    color: hsl(0, 0%, 100%);
+}
+
+.set {
+    font-size: 28px;
+    color: hsla(0, 0%, 100%, 0.6);
+}
+
+.font {
+    font-weight: 800;
+    font-size: 40px;
+    padding: 50px 0 30px;
+    color: hsl(0, 0%, 100%);
+}
+
+.type {
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.6);
+    word-spacing: 2px;
+}
+
+.container-next {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    margin-top: 55px;
+    height: 500px;
+    width: 400px;
+}
+
+.header {
+    font-size: 28px;
+     color: hsl(224, 30%, 27%);
+     padding: 10px 0 10px 20px;
+    text-align: left;
+}
+
+.sub {
+    display: block;
+    padding: 20px;
+}
+
+.sub-container-set, .sub-container-2, .sub-container-3, .sub-container-4 {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px 0 ;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.sub-container-set {
+    color: hsl(0, 100%, 67%);
+    background-color: hsla(0, 100%, 67%, 0.2);
+    border:none;
+}
+
+.sub-container-2 {
+    color: hsl(39, 100%, 56%);
+    background-color: hsla(39, 100%, 56%, 0.2);
+    border: none;
+}
+
+.sub-container-3 {
+    color: hsl(166, 100%, 37%);
+    border: none;
+    background-color: hsla(166, 100%, 37%, 0.2);
+}
+
+.sub-container-4 {
+    color: hsl(234, 85%, 45%);
+        border: none;
+        background-color: hsla(234, 85%, 45%, 0.2);
+}
+
+.click {
+    padding: 20px;
+    border-radius: 70px;
+    width: 360px;
+    background-color: hsl(224, 30%, 27%);
+    border: 1px solid hsl(224, 30%, 27%);
+}
+
+@media only screen and (max-width: 768px) {
+
+    .gen {
+        display: block;
+        justify-content: center;
+        align-content: center;
+        width: 50%;
+         margin-left: 180px;
+    }   
+    
+}
+
+@media only screen and (max-width: 425px) {
+     
+    .gen {
+        display: block;
+        width: 420px;
+        margin-left: 0;
+        padding-left: 0;
+    } 
+    .container-1 {
+        width: 400px;
+        padding: 0; 
+        margin-left: 10px;
+    }  
+    .section {
+        width: 120px;
+        height: 120px;
+        padding-top: 8px;
+        position: relative;
+        left: 40px;
+    }
+    .container-next {
+        padding: 0;
+        width: 400px;
+        margin-left: 10px;
+    }
+    .bold {
+        font-size: 50px;
+        color: hsl(0, 0%, 100%);
+    }
+    
+    .set {
+        font-size: 18px;
+        color: hsla(0, 0%, 100%, 0.6);
+    }
+    .click {
+        width: 300px;
+    }
+    .sub-container-set, .sub-container-2, .sub-container-3, .sub-container-4 {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+     .gen {
+        width: 10px;
+     }
+     .head, .header {
+        font-size: 18px;
+     }
+     .section {
+        width: 120px;
+        height: 110px;
+        padding-top: 8px;
+        position: relative;
+        left: 1px;
+    }
+    .font{
+        font-size: large;
+    }
+    .container-next {
+        margin: 0;
+        padding: 0;
+        width: 300px;
+    }
+    .container-1 {
+        padding: 0;
+        width: 300px; 
+        height: 400px;       
+    }
+    .sub-container-set, .sub-container-2, .sub-container-3, .sub-container-4 {
+        width: 239px;
+        margin-left: 0px;
+    }
+    .click {
+        width: 220px;
+    }
+    
+}
